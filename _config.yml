@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 百川归海
+title: 享受生活
 subtitle:
 description:
 author: 周雄海
 email: herosea.zhou@gmail.com
-language: CN_zh
+language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.herosea.me
+url: http://herosea.me
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -65,7 +65,7 @@ logger_format: dev
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: MMM D YYYY
+date_format: YYYY-MMM-d
 time_format: H:mm:ss
 
 # Pagination
