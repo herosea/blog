@@ -1,11 +1,9 @@
 title: hexo初体验
-tags:
-  - 学习
+date: 2014-11-01 18:21:56
+tags: 学习
 category: 工具
-categories:
-  - 工具
-date: 2014-11-01 18:21:00
 ---
+
 # 安装
 参考官网文档： https://github.com/hexojs/hexo
 
@@ -60,7 +58,7 @@ language: zh-CN
 
 url: http://herosea.me
 
-date_format: YYYY-MMM-d
+date_format: YYYY-MMM-DD dddd
 ```
 
 # 安装主题
