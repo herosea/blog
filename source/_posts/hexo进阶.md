@@ -5,6 +5,8 @@ tags:
 
 # github page使用HTTPS
 
+[参考链接](https://konklone.com/post/github-pages-now-supports-https-so-use-it)
+
 去掉CNAME文件, theme/light/layout/_partial/head.ejs里面添加。
 ```javascript
 var host = "YOURDOMAIN.github.io";
