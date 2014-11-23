@@ -60,6 +60,7 @@ url: http://herosea.me
 
 date_format: YYYY-MMM-DD dddd
 ```
+[时间格式](http://momentjs.com/docs/#/displaying/format/)
 
 # 安装主题
 在[主题列表](https://github.com/hexojs/hexo/wiki/Themes)中选择选择[light主题](https://github.com/hexojs/hexo-theme-light)

@@ -86,7 +86,13 @@ exclude_generator:
 # Deployment
 #
 ## Docs: http://hexo.io/docs/deployment.html
+#deploy:
+#  type: github
+#  repo: git@github.com:HeroSea/herosea.github.com.git
+#  branch: master
 deploy:
-  type: github
+  type: git
   repo: git@github.com:HeroSea/herosea.github.com.git
-  branch: master
+  message: update
+  repo:
+    vps: vps@~/git/blog.git
