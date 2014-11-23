@@ -95,4 +95,4 @@ deploy:
   repo: git@github.com:HeroSea/herosea.github.com.git
   message: update
   repo:
-    vps: vps@~/git/blog.git
+    vps: zhulu@vps.herosea.me:/home/zhulu/git/blog.git
