@@ -2,7 +2,7 @@
 title: WebHDFS_AND_HttpFS
 date: 2016-01-02 23:29:59
 toc: true
-description: 通过restful接口访问hadoop. 给hadoop加http代理.
+description: 提供HDFS的RESTFul接口，可通过此接口进行HDFS文件操作
 tags:
 - hadoop
 categories:
