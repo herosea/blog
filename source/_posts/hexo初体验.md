@@ -1,6 +1,6 @@
 title: hexo初体验
 date: 2014-11-01 18:21:56
-tags: 学习
+tags: hexo
 category: 工具
 ---
 
@@ -45,13 +45,13 @@ $ hexo generate
 ## 配置
 **.gitignore文件中添加**
 ```git
-db.json                                                                                       
+db.json
 deploy
 public
 ```
 **_config.yml修改**
 ```yml
-title: 享受生活 
+title: 享受生活
 author: 周雄海
 email: herosea.zhou@gmail.com
 language: zh-CN

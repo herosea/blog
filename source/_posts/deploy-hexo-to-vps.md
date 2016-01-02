@@ -1,16 +1,15 @@
 title: 在VPS上部署hexo
 date: 2014-11-23 21:51:55
 tags:
-- vps
 - hexo
-  
+
 ---
 
 原文地址：http://blog.berry10086.com/Tech/deploy-hexo-to-vps/
 
 搭建博客时看了很多教程，大部分都是讲怎样部署到Github Pages，但是Github Pages有时候访问有问题，就想直接部署在VPS上，经过半天的搜索和摸索，找个一个比较好的方法。
 
-## 基本思路 
+## 基本思路
 
 有两种方法
 
@@ -31,28 +30,28 @@ tags:
 可以使用下面的配置，其中/var/www/blog是存放博客静态文件的目录，后面会用到
 
 ```bash
-server {                                                                               
-    listen 192.184.88.212:80 ;                                                                                               
-    root /var/www/blog;                                                        
-    server_name blog.berry10086.tk;                                                 
-    access_log  /var/log/nginx/blog_access.log;                                    
-    error_log   /var/log/nginx/blog_error.log;                                            
-    location ~* ^.+\.(ico|gif|jpg|jpeg|png)$ {                            
-            root /var/www/blog;                                    
-            access_log   off;                 
-            expires      1d;                            
-        }                                                                              
-    location ~* ^.+\.(css|js|txt|xml|swf|wav)$ {                                   
-        root /var/www/blog;                                                        
-        access_log   off;                                                          
-        expires      10m;                                                          
-    }                                                                              
-    location / {                                                                   
-        root /var/www/blog;                                                
-        if (-f $request_filename) {                                            
-            rewrite ^/(.*)$  /$1 break;                                    
-        }                                                                      
-    }                                                                              
+server {
+    listen 192.184.88.212:80 ;
+    root /var/www/blog;
+    server_name blog.berry10086.tk;
+    access_log  /var/log/nginx/blog_access.log;
+    error_log   /var/log/nginx/blog_error.log;
+    location ~* ^.+\.(ico|gif|jpg|jpeg|png)$ {
+            root /var/www/blog;
+            access_log   off;
+            expires      1d;
+        }
+    location ~* ^.+\.(css|js|txt|xml|swf|wav)$ {
+        root /var/www/blog;
+        access_log   off;
+        expires      10m;
+    }
+    location / {
+        root /var/www/blog;
+        if (-f $request_filename) {
+            rewrite ^/(.*)$  /$1 break;
+        }
+    }
 }
 ```
 再执行
@@ -88,7 +87,7 @@ server {
 4. 测试，在终端中输入`ssh git@blog.berry10086.tk`，如果能够远程登陆，说明这一步没有问题
 5. 为静态内容新建仓库，接着上面的步骤
 ```bash
-$ cd ~ 
+$ cd ~
 $ mkdir blog.git && cd blog.git
 $ git init --bare
 ```

@@ -1,6 +1,8 @@
 title: hexo进阶
 date: 2014-11-02 09:47:47
 tags:
+- hexo
+
 ---
 
 # github page使用HTTPS
