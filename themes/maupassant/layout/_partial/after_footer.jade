@@ -57,3 +57,8 @@ if theme.baidu_analytics
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
       })();
+
+script.
+  var host = "herosea.github.io";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
