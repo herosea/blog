@@ -1,5 +1,6 @@
 db.json
 .deploy
+.deploy_git
 public
 # Logs
 logs
