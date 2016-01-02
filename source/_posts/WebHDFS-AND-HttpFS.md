@@ -1,9 +1,11 @@
 ---
 title: WebHDFS_AND_HttpFS
 date: 2016-01-02 23:29:59
+toc: true
+description: 通过restful接口访问hadoop. 给hadoop加http代理.
 tags:
 - hadoop
-category:
+categories:
 - 大数据
 ---
 
