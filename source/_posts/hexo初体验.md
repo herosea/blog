@@ -1,7 +1,10 @@
 title: hexo初体验
-date: 2014-11-01 18:21:56
-tags: hexo
+tags:
+  - hexo
 category: 工具
+categories:
+  - 工具
+date: 2014-11-01 18:21:00
 ---
 
 # 安装

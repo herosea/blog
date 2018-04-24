@@ -73,3 +73,9 @@ deploy:
   type: git
   repo: git@github.com:HeroSea/herosea.github.com.git
   branch: master
+
+# hexo-admin authentification
+admin:
+  username: herosea
+  password_hash: $2a$10$9Ogi5g0BLUsNyCDGXepS0Os.Ez59k8kdBrfJMntowGnn2jRqqFB4S
+  secret: goodnight_88
