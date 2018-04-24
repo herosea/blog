@@ -79,3 +79,13 @@ admin:
   username: herosea
   password_hash: $2a$10$9Ogi5g0BLUsNyCDGXepS0Os.Ez59k8kdBrfJMntowGnn2jRqqFB4S
   secret: goodnight_88
+
+links:
+  - title: 挖财
+    url: https://www.wacai.com/
+  - title: 扶墙老师
+    url: http://afoo.me/
+  - title: 王宏江
+    url: http://hongjiang.info/
+  - title: zhongl-巨石
+    url: http://segmentfault.com/blog/zhongl
